@@ -10,13 +10,13 @@ function index() {
               <p className="lg:text-4xl text-3xl font-semibold leading-10 text-gray-800 mb-4 lg:max-w-[405px] w-full">
                 We Work with the Best Partners
               </p>
-              <p className="text-base leading-normal text-gray-800 mb-[64px] lg:max-w-[513px] w-full">
+              <p className="text-base leading-normal text-gray-800 lg:max-w-[513px] w-full">
                 We are confident that we can find the process that will help you
                 meet your goals.
               </p>
-              <button className=" w-full px-4 py-4 text-base font-medium leading-none text-white duration-300 ease-in-out transform bg-gray-800 hover:bg-gray-700 lg:max-w-[187px] ">
+              {/* <button className=" w-full px-4 py-4 text-base font-medium leading-none text-white duration-300 ease-in-out transform bg-gray-800 hover:bg-gray-700 lg:max-w-[187px] ">
                 Read more
-              </button>
+              </button> */}
             </div>
             <div className="hidden lg:block md:block">
               <div className="flex flex-col xl:min-w-[624px] w-full ">

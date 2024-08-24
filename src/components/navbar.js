@@ -83,7 +83,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="gallery" smooth={true} duration={500}>
+          <Link to="gallery" offset={-50} smooth={true} duration={500}>
             Gallery
           </Link>
         </li>
@@ -135,7 +135,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="gallery" smooth={true} duration={500} onClick={handleMenuClick}>
+          <Link to="gallery" smooth={true} offset={-50} duration={500} onClick={handleMenuClick}>
             Gallery
           </Link>
         </li>

@@ -22,7 +22,13 @@
   
 }
 
+.active{
+    @apply text-[#f9b57e] bg-[#a34370]
+    mx-4 py-1 rounded-full shadow-2xl;
+  }
 
 
-
-
+  .in-active{
+    @apply bg-white text-gray-700
+    mx-4 py-1 rounded-full shadow-lg;
+  }
