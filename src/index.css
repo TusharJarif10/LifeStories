@@ -32,3 +32,9 @@
     @apply bg-white text-gray-700
     mx-4 py-1 rounded-full shadow-lg;
   }
+
+
+  .particles canvas{
+    z-index: -1;
+    position: absolute;
+  }

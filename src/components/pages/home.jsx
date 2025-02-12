@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../../assets/video.mp4";
 import { useMediaQuery } from '@react-hook/media-query'
+import { Link } from 'react-scroll';
 
 const HomePage = () => {
 
@@ -27,20 +28,23 @@ const HomePage = () => {
               </p>
 
               <div className="text-center md:text-left">
-                <form className="flex flex-col md:flex-row gap-4">
+                {/* <form className="flex flex-col md:flex-row gap-4"> */}
 
-                  <input
+                {/* <input
                     id="email"
                     name="email"
                     type="email"
                     autoComplete="email"
                     placeholder="Your Email"
                     className="px-4 py-2 bg-white rounded-full shadow-lg focus:outline-none"
-                  />
+                  /> */}
+                <Link to="contact" offset={-50} smooth={true} duration={700}>
                   <button className="px-6 py-3 bg-amber-800 text-white rounded-full shadow-lg hover:bg-amber-900">
                     Get Started
                   </button>
-                </form>
+                </Link>
+
+                {/* </form> */}
               </div>
             </div>
           </div>
@@ -57,7 +61,7 @@ const HomePage = () => {
               <br />
               <span className="text-[#a34370]">Dream into Reality</span></h1>
 
-           
+
 
             <p className="text-lg text-black mb-2 text-justify">
               Welcome to our real estate agency, where finding your dream home is our top priority. Our team of experienced agents is dedicated to providing exceptional service and helping you navigate the complex process of buying or selling a property
