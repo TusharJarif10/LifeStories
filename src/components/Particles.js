@@ -41,21 +41,21 @@ const ParticlesComponent = (props) => {
       interactivity: {
         events: {
           onClick: {
-            enable: false,
+            enable: true,
             mode: "repulse",
           },
           onHover: {
-            enable: false,
+            enable: true,
             mode: 'grab',
           },
         },
         modes: {
           push: {
-            distance: 200,
+            distance: 100,
             duration: 15,
           },
           grab: {
-            distance: 150,
+            distance: 50,
           },
         },
       },
@@ -65,7 +65,7 @@ const ParticlesComponent = (props) => {
         },
         links: {
           color: "#a5002c",
-          distance: 70,
+          distance: 110,
           enable: true,
           opacity: 0.3,
           width: 0.5,
@@ -84,7 +84,7 @@ const ParticlesComponent = (props) => {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 120,
         },
         opacity: {
           value: 1.0,

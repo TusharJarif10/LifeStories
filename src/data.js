@@ -136,10 +136,10 @@ export const eventsData = [
 // projects
 export const eventsNav = [
 
-    // {
+    {
         
-    //     name: 'All',
-    // },
+        name: 'All',
+    },
     {
         name: 'Weeding',
     },

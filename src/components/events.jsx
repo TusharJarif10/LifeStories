@@ -14,7 +14,7 @@ const Events = () => {
 
     useEffect(() => {
         // get projects based on item
-        if (item.name === '') {
+        if (item.name === 'all') {
             setEvents(eventsData);
         } else {
             const newEvents = eventsData.filter((event) => {
