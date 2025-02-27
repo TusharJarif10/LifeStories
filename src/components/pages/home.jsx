@@ -11,7 +11,7 @@ const HomePage = () => {
     <>
       <div id="home" className="w-full min-h-screen flex md:flex-row flex-col pt-20 items-center bg-gradient-to-b from-[#ffffff] to-[#fdd6a1]">
 
-        <div className="aspect-w-12 aspect-h-6 ">
+        <div className="aspect-w-12 aspect-h-6">
           <video className=" w-full h-full md:opacity-60 relative" autoPlay muted loop>
             <source src={video} type="video/mp4" />
           </video>

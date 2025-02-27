@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 @layer base {
     body {
-        @apply font-[Raleway];
+        @apply font-[Raleway] z-20;
         
         
     }
@@ -17,7 +17,7 @@
 
     button{
         @apply bg-gradient-to-r  from-[#fb8d34] to-[#a34370] bg-white px-4 py-2 rounded-full hover:bg-gradient-to-r 
-         hover:from-[#a34370] hover:to-[#a34370] hover:text-orange-300;
+         hover:from-[#a34370] hover:to-[#a34370] hover:text-orange-300 relative;
        }
   
 }
@@ -34,7 +34,8 @@
   }
 
 
-  .particles canvas{
-    z-index: -1;
-    position: absolute;
-  }
+  
+.particles canvas{
+  z-index: -1;
+  position: relative;
+}

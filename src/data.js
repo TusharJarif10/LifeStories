@@ -65,15 +65,81 @@ export const eventsData = [
         name: 'Amusement',
         description: 'Lorem ipsum dolor sit amet, consectetur'
     },
+    {
+        id: '6',
+        image: wed6,
+        name: 'Cultural program',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '7',
+        image: wed7,
+        name: 'Cultural program',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '8',
+        image: wed8,
+        name: 'Cultural program',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '9',
+        image: wed9,
+        name: 'Cultural program',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '8',
+        image: wed8,
+        name: 'Birthday',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '9',
+        image: wed9,
+        name: 'Birthday',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '9',
+        image: wed9,
+        name: 'Birthday',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '6',
+        image: wed6,
+        name: 'Cultural program',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '7',
+        image: wed7,
+        name: 'Cultural program',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '8',
+        image: wed8,
+        name: 'Christmas',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
+    {
+        id: '9',
+        image: wed9,
+        name: 'Christmas',
+        description: 'Lorem ipsum dolor sit amet, consectetur'
+    },
 ];
 
 // projects
 export const eventsNav = [
 
-    {
+    // {
         
-        name: 'All',
-    },
+    //     name: 'All',
+    // },
     {
         name: 'Weeding',
     },
@@ -87,23 +153,23 @@ export const eventsNav = [
         name: 'Birthday',
     },
     {
-        name: 'Baby Shower',
-    },
-    {
         name: 'Christmas',
     },
-    {
-        name: 'Corporate Party',
-    },
-    {
-        name: 'Convocation',
-    },
-    {
-        name: 'Fair',
-    },
-    {
-        name: 'Seminar ',
-    },
+    // {
+    //     name: 'Christmas',
+    // },
+    // {
+    //     name: 'Corporate Party',
+    // },
+    // {
+    //     name: 'Convocation',
+    // },
+    // {
+    //     name: 'Fair',
+    // },
+    // {
+    //     name: 'Seminar ',
+    // },
 
 ];
 

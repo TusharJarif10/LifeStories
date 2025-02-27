@@ -82,7 +82,7 @@ const ContactUs = () => {
                         <button type="button" className="px-4 py-2 rounded-full bg-transparent text-gray-800 text-sm tracking-wider font-medium outline-none border-2 border-gray-300">Design system</button>
                     </div>
 
-                    <form className="mt-8 space-y-4">
+                    <form className="mt-8 space-y-4 z-100 relative">
                         <input type='text' placeholder='Name'
                             className="w-full rounded-xl py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
                         <input type='email' placeholder='Email'

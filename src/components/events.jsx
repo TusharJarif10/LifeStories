@@ -14,7 +14,7 @@ const Events = () => {
 
     useEffect(() => {
         // get projects based on item
-        if (item.name === 'all') {
+        if (item.name === '') {
             setEvents(eventsData);
         } else {
             const newEvents = eventsData.filter((event) => {
@@ -33,7 +33,7 @@ const Events = () => {
         <div>
             {/* events nav */}
             <nav className='mb-10 px-2 max-w-screen-lg items-center justify-center mx-auto text-sm'>
-                <ul className='grid md:grid-cols-5 grid-cols-2 gap-y-2  justify-center items-center text-gray-600 '>
+                <ul className='grid md:grid-cols-5 grid-cols-2 gap-y-2  justify-center items-center text-gray-600 relative'>
                     {eventsNav.map((item, index) => {
                         return (
 
