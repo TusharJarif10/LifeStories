@@ -155,21 +155,7 @@ export const eventsNav = [
     {
         name: 'Christmas',
     },
-    // {
-    //     name: 'Christmas',
-    // },
-    // {
-    //     name: 'Corporate Party',
-    // },
-    // {
-    //     name: 'Convocation',
-    // },
-    // {
-    //     name: 'Fair',
-    // },
-    // {
-    //     name: 'Seminar ',
-    // },
+   
 
 ];
 

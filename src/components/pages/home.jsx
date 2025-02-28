@@ -28,23 +28,11 @@ const HomePage = () => {
               </p>
 
               <div className="text-center md:text-left">
-                {/* <form className="flex flex-col md:flex-row gap-4"> */}
-
-                {/* <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    placeholder="Your Email"
-                    className="px-4 py-2 bg-white rounded-full shadow-lg focus:outline-none"
-                  /> */}
                 <Link to="contact" offset={-50} smooth={true} duration={700}>
                   <button className="px-6 py-3 bg-amber-800 text-white rounded-full shadow-lg hover:bg-amber-900">
                     Get Started
                   </button>
                 </Link>
-
-                {/* </form> */}
               </div>
             </div>
           </div>
@@ -60,9 +48,6 @@ const HomePage = () => {
             <h1 className="text-4xl text-start font-bold text-black mb-3">Trun your
               <br />
               <span className="text-[#a34370]">Dream into Reality</span></h1>
-
-
-
             <p className="text-lg text-black mb-2 text-justify">
               Welcome to our real estate agency, where finding your dream home is our top priority. Our team of experienced agents is dedicated to providing exceptional service and helping you navigate the complex process of buying or selling a property
             </p>
@@ -72,9 +57,7 @@ const HomePage = () => {
                 <source src={video} type="video/mp4" />
               </video>
             </div>
-
             <div className="mt-7 text-center flex flex-col justify-start items-center gap-4">
-
               <form className="w-full">
                 <input
                   id="email"
@@ -85,21 +68,16 @@ const HomePage = () => {
                   className="w-full tracking-widest bg-white text-center rounded-full text-lg shadow-lg border border-gray-400 py-2 "
                 />
               </form>
-
               <button className=" w-full py-2 border-gray-500 border bg-amber-800 text-white rounded-3xl shadow-lg text-lg tracking-widest hover:bg-amber-900">
                 Get Started
               </button>
             </div>
-
           </div>
           <div>
-
           </div>
         </div>
       </>
     );
-
-
 };
 
 export default HomePage;

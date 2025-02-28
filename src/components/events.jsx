@@ -47,16 +47,13 @@ const Events = () => {
                             >
                                 <div class=' text-center'>
                                     {item.name}
-                                    
+
                                 </div>
                             </li>
                         );
                     })}
                 </ul>
             </nav>
-
-
-            {/* events */}
             <section className='grid gap-2 lg:grid-cols-3 grid-cols-1 lg:gap-x-2 lg:gap-y-2'>
                 {events.map((item) => {
                     return <Event item={item} key={item.id} />;
