@@ -1,0 +1,13 @@
+
+# How to run this React Template
+1. Download the sorce code
+2. open it on vs code
+3. go to terminal & run "npm install"
+4. after installation of all packages run "npm start"
+
+
+# Folder structure.
+1. this is a landing page. Everything is component here.
+2. in the component folder you will find all components.
+3. you can edit wherever you like.
+4. in App.jsx you will find project layout. you can manipulate the components there in terms of serial & on/off.
